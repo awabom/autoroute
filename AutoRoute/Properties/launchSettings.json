@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AutoRoute": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\ProgramData\\opencpn\\navobj.xml"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Åke Wallebom</Authors>
+    <Copyright>Åke Wallebom</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RouteLibrary\RouteLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
