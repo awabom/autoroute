@@ -4,9 +4,9 @@ using System;
 namespace AutoRoute
 {
 	class Program
-    {
-        static void Main(string[] args)
-        {
+	{
+		static void Main(string[] args)
+		{
 			if (args.Length != 1)
 			{
 				Console.Error.WriteLine("Usage: AutoRoute <path to OpenCPN navobj.xml>");
@@ -18,6 +18,6 @@ namespace AutoRoute
 				autoRouter.MakeRoutes(args[0]);
 				Environment.Exit(0);
 			}
-        }
-    }
+		}
+	}
 }
